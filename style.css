@@ -46,6 +46,25 @@ table {
   padding: 5px;
 }
 
+.sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.sidebar li {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+
 .list-inline {
   display: inline;
   list-style: none; /* pour enlever les puces sur IE7 */
@@ -61,7 +80,7 @@ table {
 }
 
 .container {
-  width: 500px;   /* Set width */
+  width: 1000px;   /* Set width */
   margin: 0 auto; /* Automatically set left/right margins */
 }
 
