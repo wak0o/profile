@@ -1,123 +1,167 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Antoine W</title>
+  <title>Airbnb home</title>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
 
-  <!-- Google fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
-  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
 
-  <!-- Fontawesome -->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <script src="https://use.fontawesome.com/db05f396be.js"></script>
+    <body>
+      <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
+        <div class="banner-content">
+          <h1>WELCOME HOME</h1>
+          <p>Rent unique places to stay from local hosts in 190+ countries.</p>
+          <form class="form-inline">
+            <div class="form-group">
+              <input type="text" class="form-control" id="exampleInputName2" placeholder="Checkin">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Checkout">
+            </div>
+            <div class="form-group">
+              <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Persons
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">1</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">3</a></li>
+                  </ul>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+          </div>
+        </div>
 
-  <!-- Your style -->
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+        <!-- Your features code -->
+        <div class="feature text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <img src="images/beer.png" alt="beer">
+                <h3>Meet people</h3>
+                <p>L'alcool c'est de l'eau</p>
+              </div>
+              <div class="col-md-3">
+                <img src="images/dollar.png" alt="dollar">
+                <h3>Vive le cash</h3>
+                <p>Le temp c'est de l'argent</p>
+              </div>
+              <div class="col-md-3">
+                <img src="images/globe.png" alt="globe">
+                <h3>The World</h3>
+                <p>WorldWildWeb</p>
+              </div>
+              <div class="col-md-3">
+                <img src="images/heart.png" alt="heart">
+                <h3>Peace & Love</h3>
+                <p>Pour l'amour du love</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-  <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
-    <iframe frameborder="0" height="100%" width="100%"
-      src="https://youtube.com/embed/DzNzGQ1zBpI?autoplay=1&controls=0&showinfo=0&autohide=1">
-    </iframe>
-  </div>
+        <!-- Your cards code -->
+        <div class="wrapper-grey text-center">
+          <h3>Votre prochain voyage</h3>
+          <div class="container cards">
+            <div class="row">
+              <div class="col-xs-12 col-sm-4">
+                <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-paris.jpg');">
+                  <div class="card-category">Paris</div>
+                  <div class="card-description">
+                    <h2>Seb's home</h2>
+                    <p>Charming room with patio</p>
+                  </div>
+                  <img class="card-user avatar avatar-large" src="images/anne.jpg">
+                  <a class="card-link" href="#"></a>
+                </div>
+                <!-- insert <div class="card"> -->
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <!-- insert <div class="card"> -->
+                <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-brussels.jpeg');">
+                  <div class="card-category">Brussels</div>
+                  <div class="card-description">
+                    <h2>Le Belge</h2>
+                    <p>Des frites & de la Leffe</p>
+                  </div>
+                  <img class="card-user avatar avatar-large" src="images/seb.jpg">
+                  <a class="card-link" href="#"></a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <!-- insert <div class="card"> -->
+                <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-london.jpeg');">
+                  <div class="card-category">London</div>
+                  <div class="card-description">
+                    <h2>Peter's home</h2>
+                    <p>Pouding & Tea</p>
+                  </div>
+                  <img class="card-user avatar avatar-large" src="images/romain.jpeg">
+                  <a class="card-link" href="#"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-  <div class="sidebar">
-    <ul>
-      <li><a href="#home"><i class="fa fa-home fa-4x" aria-hidden="true"></i></a></li>
-      <li><a href="#gomovies"><i class="fa fa-film fa-4x" aria-hidden="true"></i></a></li>
-      <li><a href="#info"><i class="fa fa-info-circle fa-4x" aria-hidden="true"></i></a></li>
-    </ul>
-  </div>
+        <!-- Your newsletter code -->
+        <div class="contact text-center">
+          <h3 class="text-center">Garde le contact</h3>
+          <div class="form">
+            <p>Donne moi ton email pour que je vende tes données</p>
+            <form action="#">
+              <input type="email" id="your-email" placeholder="jeanc@wanadoo.com">
+              <input type="submit" value="S'inscrire" class="btn btn-danger">
+            </form>
+          </div>
+        </div>
 
-  <div class="container" id="home">
-    <div class="card">
-      <img src="img/moi.jpg" alt="antoine" id="profileimg">
-      <h1>Antoine Wachowiak</h1>
-      <h2>CTO @FoxFinder</h2>
-      <p><strong>French</strong> guy</p>
-      <a href="http://www.foxfinder.fr" target="_blank" id="website">My website</a>
-    </div>
+        <!-- Your map code -->
+        <div id="map" style="width: 100%; height: 400px;"></div>
 
-    <div class="card">
-      <ul class="list-inline">
-        <li class="list-inline"><a href="https://www.facebook.com/Foxfinder.fr/?fref=ts" target="_blank">
-          <i class="fa fa-facebook fa-2x" aria-hidden="true">
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
-          </i></a>
-        </li>
-        <li class="list-inline"><a href="https://twitter.com/FoxFinderFR" target="_blank">
-          <i class="fa fa-twitter fa-2x" aria-hidden="true">
+        <script type="text/javascript">
+          var myLatlng = new google.maps.LatLng(48.8655909, 2.378983);
 
-          </i></a>
-        </li>
-        <li class="list-inline"><a href="https://www.linkedin.com/company-beta/18019308/" target="_blank">
-          <i class="fa fa-linkedin fa-2x" aria-hidden="true">
+          var myOptions = {
+            zoom: 16,
+            center: myLatlng,
+            scrollwheel: false,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+          styles: [] // TODO: replace [] by array from https://snazzymaps.com/
+        };
 
-          </i></a>
-        </li>
-      </ul>
-    </div>
+        var map = new google.maps.Map(document.getElementById('map'), myOptions);
+        var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: "You are here!"
+        });
+      </script>
 
-    <div class="card">
-      <h2 id="gomovies">My Favorite Movies</h2>
-      <table>
-        <thead>
-          <tr>
-            <th></th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><img src="img/socialnetwork.jpg" alt="The Social Network"></td>
-            <td>
-              <h3>The Social Network</h3>
-              <p>
-                Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea, and the co-founder who was later squeezed out of the business.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="img/blow.jpg" alt="Blow"></td>
-            <td>
-              <h3>Blow</h3>
-              <p>
-                The story of George Jung, the man who established the American cocaine market in the 1970s.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="img/wallstreet.jpg" alt="The Wolf of Wall Street"></td>
-            <td>
-              <h3>The Wolf of Wall Street</h3>
-              <p>
-                Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="card">
-      <h2 id="info">My Skills</h2>
-      <img src="img/html.png" alt="html">
-      <img src="img/css.png" alt="css">
-    </div>
-
-    <div class="card">
-      <h2 id="info">About this page</h2>
-      <p>This page has been coded during the <a href="https://www.lewagon.com/program" target="_blank"><strong>FullStack program @LeWagon</strong></a>. That was probably the best experience of my entire life.</p>
-      <ul class="list-inline">
-        <img src="img/wagon.png" alt="wagon" class="text-center">
-      </ul>
-    </div>
-
-  </div>
-  <!-- Your content -->
-
-</body>
-</html>
+      <!-- Your footer code -->
+      <div class="footer">
+        <i class="fa fa-3x fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-3x fa-youtube" aria-hidden="true"></i>
+        <i class="fa fa-3x fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-3x fa-twitter" aria-hidden="true"></i>
+        <p>Challenge Done @LeWagon Batch 68</p>
+      </div>
+      <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,23 @@
+/* Card design */
+.footer {
+  background-color: #333333;
+  padding: 30px;
+}
+
+.footer p {
+  color: #B8C2CC;
+  padding: 5px;
+}
+
+.footer i {
+  color: #B8C2CC;
+  padding: 10px;
+}
+
+.contact {
+  padding: 30px;
+}
+
+.feature {
+  padding: 100px;
+}

@@ -1,0 +1,40 @@
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+@import url("components/card.css");
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.padded {
+  padding: 100px 0;
+}
+.wrapper-grey {
+  background: #F4F4F4;
+}
+.feature {
+  padding: 50px
+}
+
+.wrapper-grey {
+  background-color: #F4F4F4;
+  padding: 50px;
+}
+
+.contact {
+  padding: 50px;
+}
+
+.form {
+  padding: 30px;
+}
